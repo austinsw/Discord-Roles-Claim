@@ -9,6 +9,8 @@ A Discord bot that assists in assigning roles after users pm their wallet addres
 
 It is the main running file. It includes several testing features: replying, pulling quotes from website, detecting & removing erc20 wallet address in server chatroom. $addrole command allows addition of \[role\] to \[member\].
 
+(`process.env['client_secret.json']` is a Replit specific feature for shielding the secret varaible from public.)
+
 ## server.js
 
 To keep the bot alive 24/7 on Replit for free, [UptimeRobot](https://uptimerobot.com/) can be used to ping web server.
